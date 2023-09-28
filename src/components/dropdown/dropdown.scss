@@ -1,0 +1,37 @@
+.dropdown {
+    margin-bottom: 1rem;
+    width: 90%;
+  margin-left: 400px;
+    .dropdown-title {
+        background-color: #FF6060;
+        padding: 10px;
+        cursor: pointer;
+        border: none;
+        text-align: left;
+        width: 70.5%;
+        margin-top: 54px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 5px;
+        color: #FFF;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 142.6%; /* 34.224px */
+    }
+    }
+  
+    .dropdown-content {
+      
+      border-top: 1px solid #eaeaea;
+      padding: 9px;
+  border-top: 1px solid #eaeaea;
+  width: 69%;
+  background-color: #eaeaea;
+  border-radius: 1px 1px 5px 5px;
+  color:#FF6060 ;
+    }
+  
+
+  

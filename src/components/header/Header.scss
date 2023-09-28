@@ -1,0 +1,64 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2%; // Changer le padding en pourcentage pour s'adapter à la largeur de l'écran
+    width: 100%;
+  max-width: 1240px;
+   
+   
+
+    .logo img {
+        height: auto; // Ajustez la hauteur automatiquement pour maintenir le ratio d'aspect
+        width: 50%; // Largeur en pourcentage pour être responsive
+        min-width: 50px; // Largeur minimale pour garantir la visibilité sur les petits écrans
+    }
+
+    nav ul {
+        display: flex;
+        gap: 3rem;
+        
+        
+        li {
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #FF6060;
+            text-align: right;
+            font-family: inherit;
+            font-size: 1rem; // Taille de police en rem pour être responsive
+            font-weight: 500;
+            font-size: 24px;
+            &:hover {
+                color: #007BFF;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1334px) {
+    .app-header {
+        width: 95%;
+        
+        .logo img {
+            width: 54%;
+            min-width: 0;
+        }
+        
+        nav ul {
+            flex-direction: row;
+            display: flex;
+            width: 100%;
+            list-style-type: none;
+            padding: 6px;
+        }
+    }
+}
+
+@media only screen and (max-width: 464px) {
+    .app-header nav ul a{
+        font-size: 13px;
+    }
+}

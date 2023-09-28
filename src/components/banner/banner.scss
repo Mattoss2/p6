@@ -1,0 +1,108 @@
+.banner-container {
+    width: 100%; // Utilisation de pourcentage pour une largeur responsive
+    max-width: 1240px; // Largeur maximale de la bannière
+    height: auto; // Hauteur automatique basée sur le contenu ou la proportion
+    
+    .banner img {
+        width: 100%; // Largeur à 100% pour s'adapter au conteneur parent
+        max-height: 223px; // Vous pouvez également utiliser la hauteur maximale si vous le souhaitez
+        object-fit: cover;
+        border-radius: 25px;
+    }
+    
+    .banner-text {
+        position: absolute;
+        top: 7%;
+        left: 72%;
+        transform: translate(-50%, -50%); 
+        color: white;
+        font-weight: bold;
+        font-size: 3vh;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        width: 100%;
+    }
+}
+
+@media (min-width:1061px) and (max-width:1440px ) {
+    .banner-container{
+        .banner-text{
+            top: 7%;
+            left: 67%;
+            width: 100%;
+          }
+        }
+    }
+   
+
+@media (min-width:721px) and (max-width:1060px ) {
+    .banner-container {
+        padding: 1.5%; // Léger padding pour les tablettes ou écrans moyens
+        .banner-text{
+            top: 9%;
+            font-size: 1.5vh;
+            left: 55%;
+            width: 54%;
+        }
+    }
+}
+
+
+@media (max-width: 800px) {
+    .banner-container {
+        padding: 2%; // Léger padding pour les écrans plus grands
+       
+    }
+    .banner-container .banner img{
+        max-height: 111px;
+    }
+    
+}
+@media only screen and (min-width: 1460px) {
+    .banner-container{
+
+    .banner-text{
+        left: 88%;
+        font-size: 32px;
+        top: 7%;
+      }
+    }
+}
+
+@media (max-width: 1333px) {
+    .banner-text{
+left: 50%;
+top: 10%;
+font-size: 3vh;
+    }
+}
+
+@media (min-width: 720px) and (max-width:802px){
+    .banner-container {
+        .banner-text{
+            top: 6%;
+        }
+        
+    }
+}
+
+@media (min-width: 320px) and (max-width:720px){
+    .banner-container{
+
+   .banner-text{
+    font-size: 1.5vh;
+    top: 6%;
+    left: 42%;
+    width: 50%;
+  }
+    }
+}
+@media (min-width: 320px) and (max-width:488px){
+    .banner-container {
+
+        .banner-text{
+            width: 69%;
+            top: 6%;
+            font-size: 1vh;
+        }
+    }
+}
