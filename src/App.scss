@@ -27,10 +27,11 @@ html, body {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-@media (min-width:360px) and (max-width: 1334px)  {
+@media (min-width:320px) and (max-width: 1334px)  {
   .App{
   padding-left: 20px;
   padding-right: 20px; 
+  
   }
 }
 @media (max-width: 768px) { /* Ajustements spécifiques pour les écrans de moins de 768px de large */

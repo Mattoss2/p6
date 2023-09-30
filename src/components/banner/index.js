@@ -6,8 +6,12 @@ function Banner({ image, text = "Chez vous, partout et ailleurs" }) {
         <div className="banner-container">
             <div className="banner">
             
-                {image && <img src={image} alt="Bannière" />} 
-                <h2 className="banner-text">{text}</h2>
+                         <h2 className="banner-text">{text}</h2>
+                        <img src={image} alt="Bannière" />
+                           
+                       
+                    
+                 
             </div>
         </div>
     );

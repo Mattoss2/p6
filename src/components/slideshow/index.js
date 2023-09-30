@@ -24,13 +24,17 @@ function SlideShow() {
    
     // Fonction pour générer les étoiles pour la notation.
     const getRatingStars = (rating) => {
-        const stars = [];
-        for (let i = 0; i < rating; i++) {
-            stars.push(<FontAwesomeIcon key={i} icon={faStar} />);
+    const totalStars = 5;
+    const stars = [];
+    for (let i = 0; i < totalStars; i++) {
+        if (i < rating) {
+            stars.push(<FontAwesomeIcon key={i} icon={faStar} className="full-star" />);
+        } else {
+            stars.push(<FontAwesomeIcon key={i} icon={faStar} className="empty-star" />);
         }
-        return stars;
-    };
-
+    }
+    return stars;
+};
     // Si vous arrivez ici et que matchedItem est toujours null, 
     // cela signifie que l'élément a été trouvé.
     if (!matchedItem) return null;
@@ -83,7 +87,7 @@ function SlideShow() {
                     </div>
                     <div className="rating-container">
     
-    <div className="rating">{getRatingStars(Number(matchedItem.rating))}</div>
+    {getRatingStars(Number(matchedItem.rating))}
 </div>
                 </div>
             </div>
