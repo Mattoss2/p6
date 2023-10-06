@@ -1,12 +1,12 @@
 .banner-container {
-    width: 100%; // Utilisation de pourcentage pour une largeur responsive
-    max-width: 1240px; // Largeur maximale de la bannière
-    height: auto; // Hauteur automatique basée sur le contenu ou la proportion
+    width: 100%; 
+    max-width: 1240px; 
+    height: auto; 
     padding: 2%;
     text-align: center;
     .banner img {
-        width: 100%; // Largeur à 100% pour s'adapter au conteneur parent
-        max-height: 223px; // Vous pouvez également utiliser la hauteur maximale si vous le souhaitez
+        width: 100%; 
+        max-height: 223px; 
         object-fit: cover;
         border-radius: 25px;
     }
@@ -16,7 +16,7 @@
         max-width: 1240px;
         color: white;
         font-weight: bold;
-       
+       font-size: 32px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         width: 90%;
         padding: 2%;
@@ -41,7 +41,7 @@
 
 @media (max-width: 800px) {
     .banner-container {
-        padding: 2%; // Léger padding pour les écrans plus grands
+        padding: 2%; 
      
     }
     .banner-container .banner img{
@@ -49,9 +49,9 @@
     }
     
 }
-@media (min-width: 801px) {
+@media (min-width: 801px) and (max-width:1400px) {
     .banner-container {
-        padding: 2%; // Léger padding pour les écrans plus grands
+        padding: 2%; 
        .banner-text{
         font-size: 2.5vh;
        }
@@ -62,10 +62,12 @@
 
     .banner-text{
         text-align: center;
-        width: 69%;
+        width: 77%;
+       
+  }
       }
     }
-}
+
 
 @media (max-width: 1333px) {
     .banner-text{
@@ -88,7 +90,7 @@ font-size : 1vh;
 
         .banner-text{
             width: 69%;
-            
+            font-size: 1.5vh;
             text-align: start;
         }
     }

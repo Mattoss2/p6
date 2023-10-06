@@ -1,24 +1,23 @@
 html, body {
   height: 100%;
   margin: 0;
-  font-size: 62.5%; /* Définir la taille de base de la police à 10px pour rendre plus facile l'utilisation des unités rem */
+  font-size: 62.5%; 
 }
 
 .content-wrap {
-  flex: 1; /* Permet de grandir pour occuper l'espace disponible */
+  flex: 1; 
 }
 
 .App {
-  min-height: 100vh; /* 100% de la hauteur de la fenêtre de visualisation */
-   /* Prend 100% de la largeur de l'écran */
+  min-height: 100vh; 
   display: flex;
-  flex-direction: column; /* Pour s'assurer que le contenu s'étend sur toute la hauteur */
-  align-items: center; /* Centrer les éléments horizontalement */
-  overflow-x: hidden; /* Pour éviter le débordement horizontal */
+  flex-direction: column; 
+  align-items: center;
+  overflow-x: hidden; 
 }
 
 .App-logo {
-  height: 20vmin; /* Ajuste la taille du logo en fonction de la taille de la fenêtre de visualisation */
+  height: 20vmin; 
   pointer-events: none;
 }
 
@@ -34,15 +33,15 @@ html, body {
   
   }
 }
-@media (max-width: 768px) { /* Ajustements spécifiques pour les écrans de moins de 768px de large */
+@media (max-width: 768px) { 
   .App-logo {
-    height: 30vmin; /* Agrandit le logo pour les petits écrans */
+    height: 30vmin; 
   }
 }
 
 .App-link {
   color: #61dafb;
-  font-size: 1.6rem; /* Utiliser rem pour la taille de la police, 1.6rem équivaut à 16px si la taille de base de la police est de 10px */
+  font-size: 1.6rem; 
 }
 
 @keyframes App-logo-spin {

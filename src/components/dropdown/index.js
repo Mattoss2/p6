@@ -1,5 +1,5 @@
 import React, { useState,  useCallback } from 'react';
-import './dropdown.scss'; // N'oubliez pas de créer un fichier SCSS pour styliser votre composant
+import './dropdown.scss'; 
 
 
 function Dropdown({ title, content,className  }) {

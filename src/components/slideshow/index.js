@@ -9,7 +9,7 @@ function SlideShow() {
     const { itemId } = useParams();
     const [currentIndex, setCurrentIndex] = useState(0);
     const [matchedItem, setMatchedItem] = useState(null);
-    const navigate = useNavigate(); // utilisez navigate au lieu de Navigate
+    const navigate = useNavigate(); 
 
     useEffect(() => {
         const foundItem = items.find(item => item.id === itemId);
@@ -35,8 +35,7 @@ function SlideShow() {
     }
     return stars;
 };
-    // Si vous arrivez ici et que matchedItem est toujours null, 
-    // cela signifie que l'élément a été trouvé.
+ 
     if (!matchedItem) return null;
    
     const nextSlide = () => {
