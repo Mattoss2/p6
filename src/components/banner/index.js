@@ -9,9 +9,6 @@ function Banner({ image, text = "Chez vous, partout et ailleurs" }) {
                          <h2 className="banner-text">{text}</h2>
                         <img src={image} alt="Bannière" />
                            
-                       
-                    
-                 
             </div>
         </div>
     );

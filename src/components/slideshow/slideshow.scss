@@ -8,6 +8,14 @@
 .image-container{
     position: relative;
     width: 100%;
+    .slide-number{
+        
+        position: absolute;
+        left: 49%;
+        top: 86%;
+        font-size: 18px;
+        color: white;
+    }
 }
 .image-container img {
     height: 415px;
