@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/github.com/Mattoss2/p6./static/css/main.b4c21d50.css",
+    "main.js": "/github.com/Mattoss2/p6./static/js/main.b0152618.js",
+    "static/js/787.6d185335.chunk.js": "/github.com/Mattoss2/p6./static/js/787.6d185335.chunk.js",
+    "static/media/aboutbanner.png": "/github.com/Mattoss2/p6./static/media/aboutbanner.abab3f12f4cb82f1dfa1.png",
+    "static/media/bannerindex.png": "/github.com/Mattoss2/p6./static/media/bannerindex.d00ae7dd3ef927bb988d.png",
+    "static/media/logo.svg": "/github.com/Mattoss2/p6./static/media/logo.e4c19ab08388715cdafcc1bc5806f288.svg",
+    "index.html": "/github.com/Mattoss2/p6./index.html",
+    "main.b4c21d50.css.map": "/github.com/Mattoss2/p6./static/css/main.b4c21d50.css.map",
+    "main.b0152618.js.map": "/github.com/Mattoss2/p6./static/js/main.b0152618.js.map",
+    "787.6d185335.chunk.js.map": "/github.com/Mattoss2/p6./static/js/787.6d185335.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4c21d50.css",
+    "static/js/main.b0152618.js"
+  ]
+}
